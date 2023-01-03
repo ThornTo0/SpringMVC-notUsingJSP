@@ -15,11 +15,11 @@ public class MappingController {
         return "ok";
     }
 
-    @GetMapping("/mapping/{userId}")
-    public String mappingPath(@PathVariable("userId") String data){
-        log.info("mappingPath userId={}", data);
-        return "ok";
-    }
+//    @GetMapping("/mapping/{userId}")
+//    public String mappingPath(@PathVariable("userId") String data){
+//        log.info("mappingPath userId={}", data);
+//        return "ok";
+//    }
 
     @GetMapping("/mapping2/{userId}")
     public String mappingPath2(@PathVariable String userId){
